@@ -1,0 +1,12 @@
+<!--
+Author: Nicteha Rubio
+July 26/2025
+/* rest.css: Resets some browser defaults for consistency  */
+
+-->
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
