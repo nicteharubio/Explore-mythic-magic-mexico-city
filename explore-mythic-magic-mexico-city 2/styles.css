@@ -1,0 +1,65 @@
+4. styles.css (Main Site Styles)
+css
+body {
+  font-family: Arial, sans-serif;
+  background: #f1ecd6;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #ffdd57;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  background: #ffdd57;
+  padding: 12px 0;
+  margin: 0;
+}
+nav a,
+nav a:visited {
+  color: #633a1f;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #ee6611;
+  text-decoration: underline;
+}
+main {
+  max-width: 800px;
+  margin: 24px auto;
+  padding: 0 20px;
+}
+h1,
+h2 {
+  color: #174a65;
+}
+img {
+  max-width: 100%;
+  display: block;
+  margin: 18px auto;
+  border-radius: 8px;
+}
+.credit {
+  font-size: 0.9em;
+  color: #555;
+  text-align: center;
+  margin-bottom: 18px;
+}
+section {
+  margin-bottom: 36px;
+}
+footer {
+  text-align: center;
+  background: #f8eee4;
+  padding: 12px;
+  font-size: 1em;
+  color: #633a1f;
+  border-top: 1px solid #ded2b0;
+}
